@@ -21,4 +21,4 @@ for(let i = 0; i < 3; i++){
 element.appendChild(ul);
 ul.style.textAlign = 'left';
 
-ul.removeChild('li:nth-child(2)');
+ul.removeChild(ul.querySelector('li:nth-child(2)'));
